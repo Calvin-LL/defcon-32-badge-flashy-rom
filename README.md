@@ -12,7 +12,7 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 - **Down arrow**: Decrease the brightness of the LEDs
 - **Left arrow**: Decrease the speed of the flashing
 - **Right arrow**: Increase the speed of the flashing
-- **A button**: Randomly generate R, G, and B values for the LEDs instead of the predefined colors
+- **A button**: Toggle between the randomly generate R, G, and B values for the LEDs and randomly choosing from the predefined colors
 
 ## How to add to ROM
 
