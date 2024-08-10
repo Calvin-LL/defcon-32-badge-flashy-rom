@@ -6,7 +6,14 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 
 ![](https://github.com/user-attachments/assets/e83193f0-fa00-4bd8-98d5-6ff2d827bf4a)
 
+## How to add to ROM
+
+1. Add the flashy.gb file to the `ROM` directory of the SD card
+2. In the menu, go to "Select Another Game" to select the flashy ROM
+
 ## How to flash
+
+If you can't write to your SD card and don't mind losing the current firmware, you can flash the badge with the `rom-firmware.uf2` file.
 
 1. Power off the badge
 2. Plug in a USB cable into a computer
