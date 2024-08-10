@@ -10,6 +10,8 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 
 1. Add the flashy.gb file to the `ROM` directory of the SD card
 2. In the menu, go to "Select Another Game" to select the flashy ROM
+3. Enjoy the flashing lights!
+4. (If you like it, give this repo a star!)
 
 ## How to flash
 
