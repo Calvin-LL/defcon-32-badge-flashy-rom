@@ -12,6 +12,7 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 4. The badge should show up as a USB drive on your computer, drag the `rom-firmware.uf2` file onto the drive
 5. Wait for the badge to reboot
 6. Enjoy the flashing lights!
+7. (If you like it, give this repo a star!)
 
 ## Features
 
