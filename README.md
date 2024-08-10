@@ -6,6 +6,14 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 
 ![](https://github.com/user-attachments/assets/e83193f0-fa00-4bd8-98d5-6ff2d827bf4a)
 
+## Features
+
+- **Up arrow**: Increase the brightness of the LEDs
+- **Down arrow**: Decrease the brightness of the LEDs
+- **Left arrow**: Decrease the speed of the flashing
+- **Right arrow**: Increase the speed of the flashing
+- **A button**: Randomly generate R, G, and B values for the LEDs instead of the predefined colors
+
 ## How to add to ROM
 
 1. Add the flashy.gb file to the `ROM` directory of the SD card
@@ -25,11 +33,3 @@ If you can't write to your SD card and don't mind losing the current firmware, y
 5. Wait for the badge to reboot
 6. Enjoy the flashing lights!
 7. (If you like it, give this repo a star!)
-
-## Features
-
-- **Up arrow**: Increase the brightness of the LEDs
-- **Down arrow**: Decrease the brightness of the LEDs
-- **Left arrow**: Decrease the speed of the flashing
-- **Right arrow**: Increase the speed of the flashing
-- **A button**: Randomly generate R, G, and B values for the LEDs instead of the predefined colors
