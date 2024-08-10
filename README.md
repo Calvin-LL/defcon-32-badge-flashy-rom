@@ -12,3 +12,11 @@ Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNP
 4. The badge should show up as a USB drive on your computer, drag the `rom-firmware.uf2` file onto the drive
 5. Wait for the badge to reboot
 6. Enjoy the flashing lights!
+
+## Features
+
+- **Up arrow**: Increase the brightness of the LEDs
+- **Down arrow**: Decrease the brightness of the LEDs
+- **Left arrow**: Decrease the speed of the flashing
+- **Right arrow**: Increase the speed of the flashing
+- **A button**: Randomly generate R, G, and B values for the LEDs instead of the predefined colors
