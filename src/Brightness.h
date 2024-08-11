@@ -16,17 +16,35 @@ enum Brightness {
 uint16_t Brightness_getValue(enum Brightness brightness);
 
 enum Brightness Brightness_increment(enum Brightness brightness) {
-  if (brightness < BRIGHTNESS_4) {
-    return (brightness + 1);
-  } else {
+  switch (brightness) {
+  case BRIGHTNESS_0:
+    return BRIGHTNESS_1;
+  case BRIGHTNESS_1:
+    return BRIGHTNESS_2;
+  case BRIGHTNESS_2:
+    return BRIGHTNESS_3;
+  case BRIGHTNESS_3:
+    return BRIGHTNESS_4;
+  case BRIGHTNESS_4:
+    return BRIGHTNESS_4;
+  default:
     return BRIGHTNESS_4;
   }
 }
 
 enum Brightness Brightness_decrement(enum Brightness brightness) {
-  if (brightness > BRIGHTNESS_0) {
-    return (brightness - 1);
-  } else {
+  switch (brightness) {
+  case BRIGHTNESS_0:
+    return BRIGHTNESS_0;
+  case BRIGHTNESS_1:
+    return BRIGHTNESS_0;
+  case BRIGHTNESS_2:
+    return BRIGHTNESS_1;
+  case BRIGHTNESS_3:
+    return BRIGHTNESS_2;
+  case BRIGHTNESS_4:
+    return BRIGHTNESS_3;
+  default:
     return BRIGHTNESS_0;
   }
 }
