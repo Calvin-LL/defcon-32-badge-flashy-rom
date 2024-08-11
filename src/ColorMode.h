@@ -1,0 +1,13 @@
+
+
+#ifndef COLOR_MODE_H
+#define COLOR_MODE_H
+
+enum ColorMode {
+  COLOR_MODE_VIBRANT,
+  COLOR_MODE_RANDOM,
+};
+
+#define DEFAULT_COLOR_MODE COLOR_MODE_VIBRANT
+
+#endif // COLOR_MODE_H
