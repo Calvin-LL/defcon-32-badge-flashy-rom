@@ -13,8 +13,6 @@
 
 #define BUTTON_DELAY 300
 
-#define LED_COUNT 8
-
 void main() {
   uint8_t count = 0;
 

@@ -8,7 +8,7 @@
 #define IDR_REG (*(volatile uint8_t *)0xFF7F)
 #define CTL_REG (*(volatile uint8_t *)0xFF7F)
 
-#define LED_COUNT 8
+#define LED_COUNT 9
 
 // from
 // https://discord.com/channels/867438418212683796/1271303192399052822/1271458494922620969
