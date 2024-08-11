@@ -33,3 +33,14 @@ If you can't write to your SD card and don't mind losing the current firmware, y
 5. Wait for the badge to reboot
 6. Enjoy the flashing lights!
 7. (If you like it, give this repo a star!)
+
+## How to build
+
+1. Download gbdk from https://github.com/gbdk-2020/gbdk-2020
+2. Run
+   ```bash
+   ./gbdk/bin/lcc -Wa-l -Wl-m -o flashy.gb ./src/main.c
+   ```
+   (replace `./gbdk` with the path to your gbdk directory)
+3. The `flashy.gb` file is the ROM that you can add to the SD card, or you can make a firmware with https://defrom.lol/
+4. If you want to run the ROM on an emulator first for testing. I used https://taisel.github.io/GameBoy-Online/
