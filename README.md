@@ -2,7 +2,7 @@
 
 This is a simple ROM for the DEF CON 32 Badge that makes the LEDs flash in a pattern.
 
-Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNPkk_qBH9PI9fms/edit and https://github.com/jaku/DEFCON-32-BadgeFirmware and @jaku's https://defrom.lol/
+Big thanks to https://docs.google.com/document/d/1COY5n0HhBcBq7ILwsKtOjV-_0-arNPkk_qBH9PI9fms/edit and https://github.com/jaku/DEFCON-32-BadgeFirmware and [@jaku](https://github.com/jaku/DEFCON-32-BadgeFirmware)'s https://defrom.lol/
 
 ![](https://github.com/user-attachments/assets/e83193f0-fa00-4bd8-98d5-6ff2d827bf4a)
 
