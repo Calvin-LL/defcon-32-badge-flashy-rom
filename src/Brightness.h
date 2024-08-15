@@ -4,16 +4,19 @@
 #include <gb/gb.h>
 
 enum Brightness {
-  BRIGHTNESS_0 = 0,
-  BRIGHTNESS_1 = 1,
-  BRIGHTNESS_2 = 2,
-  BRIGHTNESS_3 = 4,
-  BRIGHTNESS_4 = 8,
+  BRIGHTNESS_0 = 0, // 0
+  BRIGHTNESS_1 = 1, // 16
+  BRIGHTNESS_2 = 4, // 64
+  BRIGHTNESS_3 = 8, // 128
+  BRIGHTNESS_4 = 16, // 256
 };
 
 #define DEFAULT_BRIGHTNESS BRIGHTNESS_2
 
-uint16_t Brightness_getValue(enum Brightness brightness);
+// range: [0, 256]
+uint16_t Brightness_getValue(enum Brightness brightness) {
+  return (uint16_t)brightness * 16;
+}
 
 enum Brightness Brightness_increment(enum Brightness brightness) {
   switch (brightness) {

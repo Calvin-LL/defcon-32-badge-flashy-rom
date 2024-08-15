@@ -1,4 +1,4 @@
-#include "Brightness.c"
+#include "Brightness.h"
 #include "Color.c"
 #include "ColorMode.h"
 #include "background.c"
