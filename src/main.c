@@ -4,6 +4,7 @@
 #include "background.c"
 #include "background.h"
 #include "led.h"
+#include <gb/cgb.h>
 #include <gb/gb.h>
 #include <stdio.h>
 
@@ -21,8 +22,9 @@ void main() {
   uint8_t delay_multiplier = DEFAULT_DELAY_MULTIPLIER;
 
   // Load background to VRAM
-  set_bkg_data(0, backgroundTileDataCount, background);
-  set_bkg_tiles(0, 0, backgroundTilesX, backgroundTilesY, backgroundMap);
+  set_bkg_data(BACKGROUND_TILE_OFFSET, BACKGROUND_TILE_COUNT, backgroundTiles);
+  set_bkg_tiles(0, 0, BACKGROUND_WIDTH, BACKGROUND_HEIGHT, backgroundMap);
+  set_bkg_palette(BACKGROUND_PALETTE_OFFSET, 1, backgroundPalette);
 
   DISPLAY_ON;
   SHOW_BKG;
